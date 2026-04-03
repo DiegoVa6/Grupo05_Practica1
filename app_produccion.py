@@ -97,7 +97,7 @@ if submitted:
     )
 
     # Igual que en entrenamiento
-    max_pdays_real = 871   # <-- cambia esto por el valor real de tu notebook
+    max_pdays_real = 854
     replacement_pdays = 2 * max_pdays_real
 
     X_new["npdays"] = (X_new["pdays"] != -1).astype(int)
